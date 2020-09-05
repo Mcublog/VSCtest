@@ -42,7 +42,7 @@
         {
             "label": "Write to Flash MCU",
             "type": "shell",
-            "command": "JLink.exe -Device STM32L052C8T -If SWD -Speed 1000 JLink\\FlashMCU.jlink",
+            "command": "JLink.exe -Device STM32L052C8 -If SWD -Speed 1000 JLink\\FlashMCU.jlink",
             "options": {
                 "cwd": "${workspaceRoot}",
                 "shell": {
@@ -61,7 +61,7 @@
         {
             "label": "Read Flash from MCU",
             "type": "shell",
-            "command": "JLink.exe -Device STM32L052C8T -If SWD -Speed 1000 JLink\\ReadMCU.jlink",
+            "command": "JLink.exe -Device STM32L052C8 -If SWD -Speed 1000 JLink\\ReadMCU.jlink",
             "options": {
                 "cwd": "${workspaceRoot}",
                 "shell": {
@@ -80,7 +80,7 @@
         {
             "label": "Erase Flash MCU",
             "type": "shell",
-            "command": "JLink.exe -Device STM32L052C8T -If SWD -Speed 1000 JLink\\EraseMCU.jlink",
+            "command": "JLink.exe -Device STM32L052C8 -If SWD -Speed 1000 JLink\\EraseMCU.jlink",
             "options": {
                 "cwd": "${workspaceRoot}",
                 "shell": {
@@ -99,7 +99,7 @@
         {
             "label": "Reset MCU",
             "type": "shell",
-            "command": "JLink.exe -Device STM32L052C8T -If SWD -Speed 1000 JLink\\ResetMCU.jlink",
+            "command": "JLink.exe -Device STM32L052C8 -If SWD -Speed 1000 JLink\\ResetMCU.jlink",
             "options": {
                 "cwd": "${workspaceRoot}",
                 "shell": {
@@ -137,7 +137,7 @@
         {
             "type": "shell",
             "label": "C/C++: arm-none-eabi-gcc.exe build active file",
-            "command": "D:/Projects/Mcu/Tool/gcc_arm/bin/arm-none-eabi-gcc.exe",
+            "command": "{GCC_PATH}/bin/arm-none-eabi-gcc.exe",
             "args": [
                 "-g",
                 "${file}",
@@ -145,7 +145,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "D:/Projects/Mcu/Tool/gcc_arm/bin"
+                "cwd": "{GCC_PATH}/bin"
             },
             "problemMatcher": [
                 "$gcc"

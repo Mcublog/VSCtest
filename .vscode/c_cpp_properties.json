@@ -2,11 +2,11 @@
     "configurations": [
         {
             "name": "arm_c_cpp_properties",
-            "compilerPath": "D:\\Projects\\Mcu\\Tool\\gcc_arm\\bin\\arm-none-eabi-gcc.exe",
+            "compilerPath": "{EGCC_PATH}\\bin\\arm-none-eabi-gcc.exe",
             "includePath": [
-				"D:\\Projects\\Mcu\\Tool\\gcc_arm\\arm-none-eabi\\include",
-				"D:\\Projects\\Mcu\\Tool\\gcc_arm\\arm-none-eabi\\include\\sys\\",
-				"D:\\Projects\\Mcu\\Tool\\gcc_arm\\lib\\**",
+				"{EGCC_PATH}\\arm-none-eabi\\include",
+				"{EGCC_PATH}\\arm-none-eabi\\include\\sys\\",
+				"{EGCC_PATH}\\lib\\**",
 
 				"${workspaceRoot}\\Drivers\\**",
 				"${workspaceRoot}\\Src\\**",
