@@ -1,6 +1,6 @@
 r
-loadbin build\SL_logger.bin, 0x00
-verifybin build\SL_logger.bin, 0x00
+loadbin build\VSCtest.bin, 0x00
+verifybin build\VSCtest.bin, 0x00
 r
 g
 q

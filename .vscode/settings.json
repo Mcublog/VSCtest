@@ -1,4 +1,4 @@
 {
 	"cortex-debug.enableTelemetry": false,
-	"cortex-debug.JLinkGDBServerPath": "{JLINK_PATH}\\JLinkGDBServerCL.exe"
+	"cortex-debug.JLinkGDBServerPath": "C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe"
 }
