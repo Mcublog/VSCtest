@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "D:\\Projects\\Mcu\\Tool\\gcc_arm\\bin\\arm-none-eabi-gcc.exe",
+            "includePath": [
+				"D:\\Projects\\Mcu\\Tool\\gcc_arm\\arm-none-eabi\\include",
+				"D:\\Projects\\Mcu\\Tool\\gcc_arm\\arm-none-eabi\\include\\sys\\",
+				"D:\\Projects\\Mcu\\Tool\\gcc_arm\\lib\\**",
+
+				"${workspaceRoot}\\Drivers\\**",
+				"${workspaceRoot}\\Src\\**",
+                "${workspaceRoot}\\Inc\\**"
+            ],
+            "defines": [
+				"USE_HAL_DRIVER",
+				"STM32L052xx",
+				"M0",
+				"GCC_ARMCM0"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
